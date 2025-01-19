@@ -1,0 +1,56 @@
+@font-face {
+   font-family: Gilroy;
+   src: local("Gilroy"), local("Gilroy-Regular"),
+   url(Gilroy-Regular.woff2) format(woff2),
+   url(Gilroy-Regular.woff) format(woff),
+   url(Gilroy-Regular.eot) format(eot);
+   font-weight: 400;
+}
+@font-face {
+   font-family: Gilroy;
+   src: local("Gilroy"), local("Gilroy-ExtraBold"),
+   url(Gilroy-ExtraBold.woff2) format(woff2),
+   url(Gilroy-ExtraBold.woff) format(woff),
+   url(Gilroy-ExtraBold.eot) format(eot);
+   font-weight: 800;
+}
+@font-face {
+   font-family: Inter;
+   src: local("Inter"), local("Inter-Regular"),
+   url(Inter_18pt-Regular.woff2) format(woff2),
+   url(Inter_18pt-Regular.woff) format(woff),
+   url(Inter_18pt-Regular.eot) format(eot);
+   font-weight: 400;
+}
+@font-face {
+   font-family: STIX;
+   src: local("STIX"), local("STIX-Medium"),
+   url(STIXTwoText-Medium.woff2) format(woff2),
+   url(STIXTwoText-Medium.woff) format(woff),
+   url(STIXTwoText-Medium.eot) format(eot);
+   font-weight: 500;
+}
+@font-face {
+   font-family: STIX;
+   src: local("STIX"), local("STIX-MediumItalic"),
+   url(STIXTwoText-MediumItalic.woff2) format(woff2),
+   url(STIXTwoText-MediumItalic.woff) format(woff),
+   url(STIXTwoText-MediumItalic.eot) format(eot);
+   font-weight: 500;
+}
+@font-face {
+   font-family: Monsterrat;
+   src: local("Monsterrat"), local("Monsterrat-Regular"),
+   url(Montserrat-Regular.woff2) format(woff2),
+   url(Montserrat-Regular.woff) format(woff),
+   url(Montserrat-Regular.eot) format(eot);
+   font-weight: 400;
+}
+@font-face {
+   font-family: Monsterrat;
+   src: local("Monsterrat"), local("Monsterrat-Medium"),
+   url(Montserrat-Medium.woff2) format(woff2),
+   url(Montserrat-Medium.woff) format(woff),
+   url(Montserrat-Medium.eot) format(eot);
+   font-weight: 500;
+}
