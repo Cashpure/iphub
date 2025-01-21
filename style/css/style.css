@@ -516,27 +516,29 @@ body {
 .slider__arrows {
   display: inline-flex;
 }
-.slider__arrows .slider__arrow-left {
+
+.slider__arrow-left {
   display: flex;
   cursor: pointer;
 }
-.slider__arrows .slider__arrow-left img {
+.slider__arrow-left img {
   transition: all 0.2s;
   transform: translateX(20px);
 }
-.slider__arrows .slider__arrow-left:active img {
+.slider__arrow-left:active img {
   transform: translateX(-20px) !important;
 }
-.slider__arrows .slider__arrow-right {
+
+.slider__arrow-right {
   margin-left: 20px;
   display: flex;
   cursor: pointer;
 }
-.slider__arrows .slider__arrow-right img {
+.slider__arrow-right img {
   transition: all 0.2s;
   transform: translateX(-20px);
 }
-.slider__arrows .slider__arrow-right:active img {
+.slider__arrow-right:active img {
   transform: translateX(20px) !important;
 }
 

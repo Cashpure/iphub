@@ -11,6 +11,13 @@ $(function () {
       // $(this).children('.slide__inner').children('.slide__text').slideToggle('fast')
       $(this).children('.slide__inner').children('.slide__text').toggleClass('slide__text--active')
    })
+   $('.header-services__grid-item').hover(function () {
+      $(this).children('.grid-item__arrow').toggleClass('grid-item__arrow--active')
+      $(this).children('.grid-item__inner').toggleClass('grid-item__inner--active')
+      $(this).children('.grid-item__inner').children('.grid-item__title').toggleClass('grid-item__title--active')
+      // $(this).children('.slide__inner').children('.slide__text').slideToggle('fast')
+      $(this).children('.grid-item__inner').children('.grid-item__text').toggleClass('grid-item__text--active')
+   })
 
    $('.faq__main-answer').on('click', function () {
       $('.faq__main-answer').removeClass('faq__main-answer--active')
@@ -34,7 +41,7 @@ $(function () {
       $('.forum__button-prev').removeClass('forum__button--active')
    })
 
-   $(window).on('resize', function() {
+   $(window).on('resize', function () {
       if ($(window).width() >= 985) {
          $('.slider__arrow-right').addClass('slider__arrow-right--hover')
          $('.slider__arrow-left').addClass('slider__arrow-left--hover')
@@ -63,6 +70,20 @@ $(function () {
       return false;
    });
 })
+
+let sliderArrowRight = document.querySelectorAll('.slider__arrow-right')
+let sliderArrowleft = document.getElementsByClassName('slider__arrow-left')
+
+console.log(sliderArrowleft)
+
+if (window.innerWidth >= 1000) {
+   Array.from(sliderArrowleft).forEach(element => {
+      element.classList.add('slider__arrow-left--hover')
+   });
+   Array.from(sliderArrowRight).forEach(element => {
+      element.classList.add('slider__arrow-right--hover')
+   });
+}
 
 let prev = document.getElementById('prev')
 let next = document.getElementById('next')
@@ -233,25 +254,5 @@ const swiper3 = new Swiper('.swiper-3', {
    },
 });
 
-let sliderArrowRight = document.querySelectorAll('.slider__arrow-right')
-let sliderArrowleft = document.getElementsByClassName('slider__arrow-left')
 
-console.log(sliderArrowleft)
-
-// function addHover(el) {
-   
-// }
-
-
-
-
-
-   if (window.innerWidth >= 1000) {
-      Array.from(sliderArrowleft).forEach(element => {
-         element.classList.add('slider__arrow-left--hover')
-      });
-      Array.from(sliderArrowRight).forEach(element => {
-         element.classList.add('slider__arrow-right--hover')
-      });
-   }
 
