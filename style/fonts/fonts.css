@@ -28,7 +28,7 @@
    url(STIXTwoText-Medium.woff2) format(woff2),
    url(STIXTwoText-Medium.woff) format(woff),
    url(STIXTwoText-Medium.eot) format(eot);
-   font-weight: 500;
+   font-weight: 400;
 }
 @font-face {
    font-family: STIX;
