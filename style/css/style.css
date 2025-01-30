@@ -11,6 +11,13 @@ body {
   --grid-item-gradient: linear-gradient(170deg, rgba(218, 69, 51, 1) 0%, rgba(31, 31, 31, 1) 50%);
 }
 
+.title {
+  font-family: STIX;
+  font-size: 3.8rem;
+  font-weight: 400;
+  line-height: 135%;
+}
+
 .slider__arrow-left--hover:hover img {
   transform: translateX(-20px) !important;
 }
@@ -68,6 +75,13 @@ body {
   max-width: 1255px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+.container--hidden {
+  max-width: 1255px;
+  padding: 0 20px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .header__top {
@@ -1360,11 +1374,13 @@ body {
   .solutions,
   .faq,
   .team,
-  .consult {
+  .consult,
+  .process {
     padding-top: 120px;
     padding-bottom: 120px;
   }
-  .cases {
+  .cases,
+  .header-complex {
     padding-bottom: 120px;
   }
   .cases__title {
@@ -1455,7 +1471,8 @@ body {
   .header-service__block-title,
   .header-service__bot-title,
   .header-service__mid-title,
-  .header-service__slider-title {
+  .header-service__slider-title,
+  .title {
     font-size: 3.2rem !important;
   }
   .header__main-practice {
@@ -1465,11 +1482,13 @@ body {
   .solutions,
   .faq,
   .team,
-  .consult {
+  .consult,
+  .process {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  .cases {
+  .cases,
+  .header-complex {
     padding-bottom: 80px;
   }
   .header__practice-left {
@@ -1645,7 +1664,8 @@ body {
   .header-service__block-title,
   .header-service__bot-title,
   .header-service__mid-title,
-  .header-service__slider-title {
+  .header-service__slider-title,
+  .title {
     font-size: 2.8rem !important;
   }
   .header__exp-grid {
@@ -1764,7 +1784,8 @@ body {
   .header-service__block-title,
   .header-service__bot-title,
   .header-service__mid-title,
-  .header-service__slider-title {
+  .header-service__slider-title,
+  .title {
     font-size: 2.4rem !important;
   }
   .header__exp-grid,
@@ -1782,11 +1803,13 @@ body {
   .solutions,
   .faq,
   .team,
-  .consult {
+  .consult,
+  .process {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .cases {
+  .cases,
+  .header-complex {
     padding-bottom: 60px;
   }
   .bonus__text,

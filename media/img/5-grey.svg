@@ -1,0 +1,13 @@
+<svg width="27.074219" height="35.130859" viewBox="0 0 27.0742 35.1309" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<linearGradient x1="0.599609" y1="17.587889" x2="32.395660" y2="17.587889" id="paint_linear_25_1925_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF"/>
+			<stop offset="1.000000" stop-color="#FFFFFF" stop-opacity="0.000000"/>
+		</linearGradient>
+	</defs>
+	<path id="1" d="M10.85 12.57L14.09 12.57C20.62 12.57 25.57 16.17 25.57 23.1C25.57 30.03 20.17 33.63 13.87 33.63C7.97 33.63 3.65 31.29 1.49 26.2L7.7 22.6C8.65 25.12 10.45 26.61 13.64 26.61C17.06 26.61 18.37 25.03 18.37 23.1C18.37 21.16 17.06 19.59 13.64 19.59L3.29 19.59L4.6 1.5L23.99 1.5L23.99 8.25L11.17 8.25L10.85 12.57Z" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<path id="1" d="M14.09 12.57L10.85 12.57L11.17 8.25L23.99 8.25L23.99 1.5L4.6 1.5L3.29 19.59L13.64 19.59C17.06 19.59 18.37 21.16 18.37 23.1C18.37 25.03 17.06 26.61 13.64 26.61C10.45 26.61 8.65 25.12 7.7 22.6L1.49 26.2C3.65 31.29 7.97 33.63 13.87 33.63C20.17 33.63 25.57 30.03 25.57 23.1C25.57 16.17 20.62 12.57 14.09 12.57Z" stroke="url(#paint_linear_25_1925_0)" stroke-opacity="0.500000" stroke-width="1.500000"/>
+</svg>
