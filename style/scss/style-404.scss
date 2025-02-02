@@ -1,0 +1,40 @@
+.header-404 {
+   padding: 40px 0 120px 0;
+   
+   .header-404__inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      .header-404__title {
+         margin-bottom: 28px;
+         max-width: 643px;
+         text-align: center;
+      }
+      .header-404__button {
+         width: 155px;
+      }
+      .header-404__pic {
+         img {
+            width: 100%;
+         }
+      }
+   }
+
+}
+// ------------------------------------------MEDIA------------------------------------------
+@media (max-width: 1000px) {
+   .header-404 {
+      padding-bottom: 60px !important;
+   }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+
+}
+@media (max-width: 360px) {
+
+}

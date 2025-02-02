@@ -8,6 +8,7 @@
    align-items: center;
    margin-top: 36px;
    margin-bottom: 35px;
+   position: relative;
 
    .header-cases__main-left {
       min-width: 260px;
@@ -60,8 +61,11 @@
    }
 
    .header-cases__main-right {
+      position: absolute;
+      right: 0;
+      top: -80px;
       transform: translateY(35px);
-      width: calc(245px + 6.354vw);
+      width: calc(170px + 6.354vw);
 
       img {
          width: 100%;

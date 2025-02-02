@@ -5,11 +5,33 @@ html {
 body {
    background-color: #131313;
    color: white;
+
 }
 
+// *{
+//    scrollbar-width: 8px;
+//    scrollbar-color: #DA4533 transparent;
+// }
+
+*::-webkit-scrollbar {
+   width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+   width: 8px;
+   height: 100%;
+   background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+   border-radius: 8px;
+   border: 2px solid #1B1B1B;
+   background-color: #DA4533;
+}
 :root {
    --grid-item-gradient: linear-gradient(170deg, rgba(218, 69, 51, 1) 0%, rgba(31, 31, 31, 1) 50%);
 }
+
 
 .title {
    font-family: STIX;
@@ -388,6 +410,13 @@ body {
       transform: translateX(-18px);
       position: absolute;
       right: -36px;
+      top: calc(50% - 4px);
+   }
+   .button__arrow-left {
+      transition: all .2s;
+      transform: translateX(18px);
+      position: absolute;
+      left: -36px;
       top: calc(50% - 4px);
    }
 
