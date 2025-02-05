@@ -3,15 +3,12 @@
 }
 
 .header-faq__main-top {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
    margin-top: 36px;
    margin-bottom: 54px;
    position: relative;
 
+
    .header-faq__main-left {
-      min-width: 260px;
 
       .header-faq__main-links {
          transform: translateX(-15px);
@@ -41,6 +38,9 @@
          user-select: none;
          -webkit-user-select: none;
          -moz-user-select: none;
+         overflow: hidden;
+         white-space: nowrap;
+         text-overflow: ellipsis;
 
          .header-faq__arrow {
             margin: 0 8px;
@@ -48,6 +48,9 @@
 
          .header-faq__link--active {
             color: #DA4533;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
          }
       }
 
@@ -323,6 +326,7 @@
    .header-faq__grid-texts {
       font-size: 1.2rem !important;
    }
+
    .header-faq__grid-title {
       font-size: 1.6rem !important;
    }
@@ -334,6 +338,7 @@
    .header-faq {
       padding-bottom: 60px;
    }
+
    .header-faq__grid-description {
       font-size: 1.4rem !important;
    }

@@ -9,7 +9,6 @@
 .header-service__main-top .header-service__main-links {
   transform: translateX(-15px);
   display: flex;
-  min-width: 566px;
 }
 .header-service__main-top .header-service__main-links .header-service__link-back .link-back__circle {
   width: 28px;
@@ -30,12 +29,18 @@
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .header-service__main-top .header-service__links-inner .header-service__arrow {
   margin: 0 8px;
 }
 .header-service__main-top .header-service__links-inner .header-service__link--active {
   color: #DA4533;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .header-service__top-block {

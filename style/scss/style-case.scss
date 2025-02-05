@@ -9,7 +9,11 @@
    .header-case__main-links {
       transform: translateX(-15px);
       display: flex;
-      min-width: 881px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+
+
 
       .header-case__link-back {
          .link-back__circle {
@@ -35,6 +39,9 @@
       user-select: none;
       -webkit-user-select: none;
       -moz-user-select: none;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
 
       .header-case__arrow {
          margin: 0 8px;
@@ -42,6 +49,9 @@
 
       .header-case__link--active {
          color: #DA4533;
+         overflow: hidden;
+         white-space: nowrap;
+         text-overflow: ellipsis;
       }
    }
 }

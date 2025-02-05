@@ -9,7 +9,9 @@
 .header-case__main-top .header-case__main-links {
   transform: translateX(-15px);
   display: flex;
-  min-width: 881px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .header-case__main-top .header-case__main-links .header-case__link-back .link-back__circle {
   width: 28px;
@@ -30,12 +32,18 @@
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .header-case__main-top .header-case__links-inner .header-case__arrow {
   margin: 0 8px;
 }
 .header-case__main-top .header-case__links-inner .header-case__link--active {
   color: #DA4533;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .header-case__top-block {
