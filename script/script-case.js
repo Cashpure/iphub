@@ -72,6 +72,6 @@ let caseItem = document.querySelectorAll('.header-cases__grid-item')
 
 Array.from(caseItem).forEach(element => {
    element.onclick = () => {
-      window.open('../case.html', '_self')
+      window.open('/case.html', '_self')
    }
 })
