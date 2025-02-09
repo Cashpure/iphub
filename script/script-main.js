@@ -2,7 +2,7 @@ let swiperSlide1 = document.querySelectorAll('.swiper-slide-1')
 
 Array.from(swiperSlide1).forEach(element => {
    element.onclick = () => {
-      window.open('/case.html', '_self')
+      window.open('case.html', '_self')
    }
 })
 
@@ -10,7 +10,7 @@ let swiperSlide2 = document.querySelectorAll('.cases__slide-2')
 
 Array.from(swiperSlide2).forEach(element => {
    element.onclick = () => {
-      window.open('/cases.html', '_self')
+      window.open('cases.html', '_self')
    }
 })
 
