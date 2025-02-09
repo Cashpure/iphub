@@ -85,6 +85,19 @@ $(function () {
    })
 })
 
+let burger = document.getElementsByClassName('burger')
+burger[0].onclick = () => {
+   if (burger[0].classList.contains('burger--active')) {
+      document.body.style.overflow = 'initial'
+   } else {
+      document.body.style.overflow = 'hidden'
+   }
+}
+
+
+
+
+
 let button = document.getElementsByClassName('button')
 let sliderArrowRight = document.querySelectorAll('.slider__arrow-right')
 let sliderArrowleft = document.getElementsByClassName('slider__arrow-left')
