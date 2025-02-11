@@ -268,13 +268,15 @@ body {
 }
 .header__left-title span {
   display: inline-block;
-  color: #DA4533;
 }
 .header__left-title span:first-child {
+  color: #DA4533;
   transform: translate(-20px);
 }
-.header__left-title p {
-  display: inline-block;
+.header__left-title span:last-child {
+  color: #DA4533;
+}
+.header__left-title span:nth-child(2) {
   transform: translateX(-30px);
 }
 
@@ -1457,11 +1459,11 @@ body {
   .header__left-title {
     text-align: center;
   }
-  .header__left-title p {
-    transform: translateX(0);
-  }
   .header__left-title span:first-child {
     transform: translateX(8px);
+  }
+  .header__left-title span:nth-child(2) {
+    transform: translateX(0);
   }
   .header__left-ip {
     text-align: center;
@@ -1674,7 +1676,7 @@ body {
     font-size: 2.8rem;
   }
   .header__left-title {
-    min-width: 324px;
+    min-width: 326px;
     font-size: 3.3rem !important;
   }
   .header__left-text,

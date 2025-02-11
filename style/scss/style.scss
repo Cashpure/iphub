@@ -314,16 +314,18 @@ body {
 
    span {
       display: inline-block;
-      color: #DA4533;
-
+      
       &:first-child {
+         color: #DA4533;
          transform: translate(-20px);
       }
-   }
+      &:last-child {
+         color: #DA4533;
+      }
+      &:nth-child(2) {
+         transform: translateX(-30px);
 
-   p {
-      display: inline-block;
-      transform: translateX(-30px);
+      }
    }
 }
 
@@ -1713,12 +1715,12 @@ body {
    .header__left-title {
       text-align: center;
 
-      p {
-         transform: translateX(0);
-      }
-
       span:first-child {
          transform: translateX(8px);
+      }
+      span:nth-child(2) {
+         transform: translateX(0);
+
       }
    }
 
@@ -2006,7 +2008,7 @@ body {
    }
 
    .header__left-title {
-      min-width: 324px;
+      min-width: 326px;
       font-size: 3.3rem !important;
    }
 
