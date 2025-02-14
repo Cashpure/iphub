@@ -1,7 +1,4 @@
 
-
-
-
 $(function () {
    $('.burger').on('click', function () {
       $(this).toggleClass('burger--active')
