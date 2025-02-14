@@ -216,6 +216,10 @@
   line-height: 135%;
 }
 
+.swiper-slide-4 {
+  height: 400px !important;
+}
+
 @media (max-width: 1000px) {
   .header-service__flex-title {
     font-size: 1.6rem !important;

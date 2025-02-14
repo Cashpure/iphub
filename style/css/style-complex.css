@@ -205,6 +205,7 @@
 }
 
 .slide-5 {
+  width: auto !important;
   height: auto;
   padding: 0;
 }
@@ -253,10 +254,10 @@
   background-color: transparent;
   border-radius: 0;
   padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: auto;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  height: auto !important;
 }
 .slide-7 .slide-7__left {
   max-width: 701px;
